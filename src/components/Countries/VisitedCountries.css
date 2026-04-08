@@ -1,0 +1,21 @@
+.visited-div{
+  display: flex;
+  gap: 8px;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid sandybrown;
+  padding: 8px;
+  border-radius: 12px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hide-it{
+  display: hidden;
+}
+
+.visited-country{
+  border: 2px solid seagreen;
+  padding: 5px 7px;
+  border-radius: 8px;
+}
