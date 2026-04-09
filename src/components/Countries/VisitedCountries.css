@@ -1,5 +1,6 @@
 .visited-div{
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   justify-items: center;
   align-items: center;
