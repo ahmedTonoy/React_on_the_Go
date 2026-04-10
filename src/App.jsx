@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1 style={{textAlign: 'center'}}>React on the Go</h1>
+      <h1 style={{textAlign: 'center'}}>Ahmed on the Go</h1>
       <Suspense fallback={<p>Data is Loading...</p>}>
         <Countries countriesPromise={countriesPromise}></Countries>
       </Suspense>
