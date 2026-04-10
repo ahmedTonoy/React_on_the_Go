@@ -21,7 +21,7 @@ const Countries = ({countriesPromise}) => {
     });
   }
   return (
-    <div>
+    <div className='container'>
       <h2 style={{textAlign: 'center', marginBottom: '20px'}}>Total Countries in the World: {countries.length}</h2>
       <h4 style={{textAlign: 'center', marginBottom: '20px', backgroundColor: 'white', paddingBlock: '10px'}}>Countries Mr. React visited:</h4>
       <VisitedCountries countriesVisited={countriesVisited}></VisitedCountries>

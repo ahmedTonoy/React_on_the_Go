@@ -1,0 +1,27 @@
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  padding: 14px 22px;
+  font-size: 28px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 50%;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+/* visible state */
+.scroll-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
