@@ -23,6 +23,22 @@
   text-align: center;
 }
 
+.delete{
+   background-color: white; 
+   color: red;
+   font-weight: bolder;
+   font-size: 16px;
+   border-radius: 50%;
+   border: 0.5px solid black;
+   transition: background-color 0.5s ease;
+}
+
+.delete:hover{
+  background-color: red; 
+  color: white;
+  border: 0.5px solid red;
+}
+
 @media (max-width: 768px) {
   .visited-div{
     padding-inline: 5px;
